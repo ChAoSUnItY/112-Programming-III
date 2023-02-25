@@ -4,7 +4,7 @@
 int main() {
     char s1[100], s2[100];
     int n, i;
-    int vowel[256]  = {};
+    int vowel[256]  = {0};
     vowel['a'] = 1, vowel['e'] = 1, vowel['i'] = 1;
     vowel['o'] = 1, vowel['u'] = 1;
     
